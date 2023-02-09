@@ -3,6 +3,9 @@ body{
   background-color:powderblue;
   position:relative;
 }
+h1{
+  font-size:40px;
+}
 form{
   color:grey;
 }
