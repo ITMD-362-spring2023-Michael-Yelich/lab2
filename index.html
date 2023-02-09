@@ -8,16 +8,17 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
+  <h1>My Info</h1>
   <form action="NULL" method="post" autocomplete="on">
-    <h3>My Info</h3>
     <fieldset>
-	  Email Address: <input type="text" name="email_field" />
-	  <br>
-	  Phone Number: <input type="text" name="phone_field" />
-	  <br>
+	  Email Address: <input type="text" name="email_field" required placeholder="YourName@Mailservice.com" />
+	  <br></br>
+	  Phone Number: <input type= "tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="***-***-****">
+	  <br></br>
       Date Of Birth:<input type="date" id="DateOfBirth" name="DateOfBirth" min="1907-03-04">
     </fieldset>
 	<input type="hidden" name="hidden_field" value="Michael Yelich">
+	<br></br>
 	<input type="submit" value="Submit" />
   </form>
 </body>
